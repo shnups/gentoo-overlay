@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<repositories version="1.0">
+      <repo quality="experimental" status="unofficial">
+            <name>shnups</name>
+            <description lang="en">Gentoo Overlay for my personal use.</description>
+            <homepage>https://github.com/shnups/gentoo-overlay</homepage>
+            <owner type="person">
+                  <name>Romain Meson</name>
+                  <email>romain.meson@gmail.com</email>
+            </owner>
+            <source type="git">git://github.com/shnups/gentoo-overlay.git</source>
+            <feed>https://github.com/shnups/gentoo-overlay/commits/master.atom</feed>
+      </repo>
+</repositories>
