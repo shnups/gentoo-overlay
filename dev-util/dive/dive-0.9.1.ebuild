@@ -12,10 +12,10 @@ SLOT="0"
 KEYWORDS="~amd64"
 IUSE=""
 
-DEPEND="dev-lang/go"
-RDEPEND="dev-lang/go"
-BDEPEND="dev-lang/go"
+RDEPEND=""
+BDEPEND=">=dev-lang/go-1.11.5"
 
 src_install() {
 	dobin dist/dive_linux_amd64/${PN}
 }
+
