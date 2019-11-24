@@ -2,7 +2,7 @@
 <repositories version="1.0">
       <repo quality="experimental" status="unofficial">
             <name>shnups</name>
-            <description lang="en">Gentoo Overlay for my personal use.</description>
+	    <description lang="en">Gentoo Overlay for my personal/work needs.</description>
             <homepage>https://github.com/shnups/gentoo-overlay</homepage>
             <owner type="person">
                   <name>Romain Meson</name>
