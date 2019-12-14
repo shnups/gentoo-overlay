@@ -5,6 +5,7 @@ EAPI=7
 
 GITHUB_USER="microsoft"
 GITHUB_REPO="ProcDump-for-Linux"
+DOCS=(CODE_OF_CONDUCT.md CONTRIBUTING.md LICENSE README.md)
 
 DESCRIPTION="A Linux version of the ProcDump Sysinternals tool"
 HOMEPAGE="https://github.com/${GITHUB_USER}/${GITHUB_REPO}"
