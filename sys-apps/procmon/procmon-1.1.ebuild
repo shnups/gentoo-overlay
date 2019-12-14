@@ -15,7 +15,6 @@ LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64"
 IUSE=""
-FEATURE="test"
 
 RDEPEND=">=sys-devel/gdb-7.6.1"
 BDEPEND="sys-libs/zlib"
