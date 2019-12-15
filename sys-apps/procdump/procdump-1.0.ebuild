@@ -19,6 +19,7 @@ IUSE=""
 
 RDEPEND=">=sys-devel/gdb-7.7.1"
 BDEPEND=""
+PATCHES=("${FILESDIR}/${PV}/${PN}-Makefile.patch")
 
 pkg_pretend() {
 	if use kernel_linux ; then
@@ -30,10 +31,5 @@ src_unpack() {
 	unpack ${A}
 
 	mv "${WORKDIR}/${GITHUB_REPO}-${PV}" "${S}" || die "Couldn't move sources directory"
-}
-
-src_prepare() {
-	eapply "${FILESDIR}/${PV}/${PN}-Makefile.patch" || die "Couldn't patch Makefile"
-	eapply_user
 }
 
