@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <upstream>
+    <bugs-to>https://github.com/wagoodman/dive/issues</bugs-to>
+    <changelog>https://github.com/wagoodman/dive/releases</changelog>
+    <doc>https://github.com/wagoodman/dive/blob/master/README.md</doc>
+  </upstream>    
+  <maintainer type="person" status="active">
+    <name>shnups</name>
+    <email>romain.meson@gmail.com</email>
+  </maintainer>
+  <longdescription>
+    A tool for exploring a docker image, layer contents, and discovering ways 
+    to shrink the size of your Docker/OCI image.
+
+    - Show Docker image contents broken down by layer
+    - Indicate what's changed in each layer
+    - Estimate "image efficiency"
+    - Quick build/analysis cycles
+    - CI Integration
+    - Multiple Image Sources and Container Engines Supported
+  </longdescription>
+</pkgmetadata>
