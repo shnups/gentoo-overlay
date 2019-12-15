@@ -6,7 +6,7 @@ inherit linux-info
 
 GITHUB_USER="microsoft"
 GITHUB_REPO="ProcDump-for-Linux"
-DOCS=(CODE_OF_CONDUCT.md CONTRIBUTING.md LICENSE README.md docs/coreclrintegration.md)
+DOCS=(CODE_OF_CONDUCT.md CONTRIBUTING.md LICENSE README.md)
 
 DESCRIPTION="A Linux version of the ProcDump Sysinternals tool"
 HOMEPAGE="https://github.com/${GITHUB_USER}/${GITHUB_REPO}"
@@ -17,8 +17,8 @@ SLOT="0"
 KEYWORDS="~amd64"
 IUSE=""
 
-RDEPEND=">=sys-devel/gdb-7.6.1"
-BDEPEND="sys-libs/zlib"
+RDEPEND=">=sys-devel/gdb-7.7.1"
+BDEPEND=""
 
 pkg_pretend() {
 	if use kernel_linux ; then
@@ -28,6 +28,12 @@ pkg_pretend() {
 
 src_unpack() {
 	unpack ${A}
+
 	mv "${WORKDIR}/${GITHUB_REPO}-${PV}" "${S}" || die "Couldn't move sources directory"
+}
+
+src_prepare() {
+	eapply "${FILESDIR}/${PV}/${PN}-Makefile.patch" || die "Couldn't patch Makefile"
+	eapply_user
 }
 

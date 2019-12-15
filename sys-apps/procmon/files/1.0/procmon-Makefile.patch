@@ -1,0 +1,24 @@
+diff -Naur procmon-1.0.old/Makefile procmon-1.0/Makefile
+--- procmon-1.0.old/Makefile	2019-12-15 00:50:57.300124583 +0100
++++ procmon-1.0/Makefile	2019-12-15 00:53:07.750137148 +0100
+@@ -13,6 +13,7 @@
+ 
+ 
+ # installation directory
++DESTDIR ?= /
+ INSTALLDIR=/usr/bin
+ MANDIR=/usr/share/man/man1
+ 
+@@ -32,8 +33,10 @@
+ build: $(OBJDIR) $(BINDIR) $(OUT)
+ 
+ install:
+-	cp $(BINDIR)/procdump $(INSTALLDIR)
+-	cp procdump.1 $(MANDIR)
++	mkdir -p $(DESTDIR)$(INSTALLDIR)
++	cp $(BINDIR)/procdump $(DESTDIR)$(INSTALLDIR)
++	mkdir -p $(DESTDIR)$(MANDIR)
++	cp procdump.1 $(DESTDIR)$(MANDIR)
+ 
+ $(OBJDIR)/%.o: $(SRCDIR)/%.c
+ 	$(CC) -c -g -o $@ $< $(CFLAGS)

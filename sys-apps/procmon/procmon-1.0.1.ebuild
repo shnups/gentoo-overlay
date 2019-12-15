@@ -27,7 +27,7 @@ pkg_pretend() {
 }
 
 src_unpack() {
-  	unpack ${A}
+	unpack ${A}
 	mv "${WORKDIR}/${GITHUB_REPO}-${PV}" "${S}" || die "Couldn't move sources directory"
 }
 
