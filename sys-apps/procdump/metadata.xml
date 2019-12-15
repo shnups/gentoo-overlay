@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<!--
+For a full description look at:
+https://devmanual.gentoo.org/ebuild-writing/misc-files/metadata/
+-->
+<pkgmetadata>
+  <upstream>
+    <bugs-to>https://github.com/microsoft/ProcDump-for-Linux/issues</bugs-to>
+    <changelog>https://github.com/microsoft/ProcDump-for-Linux/releases</changelog>
+    <doc>https://github.com/microsoft/ProcDump-for-Linux/blob/master/README.md</doc>
+  </upstream>    
+  <maintainer type="person" status="active">
+    <name>shnups</name>
+    <email>romain.meson@gmail.com</email>
+    <description>Primary maintainer</description>
+  </maintainer>
+  <longdescription>
+    ProcDump is a command-line utility whose primary purpose is monitoring an 
+    application for CPU spikes and generating crash dumps during a spike that 
+    an administrator or developer can use to determine the cause of the spike.
+    
+    ProcDump also includes hung window monitoring (using the same definition 
+    of a window hang that Windows and Task Manager use), unhandled exception 
+    monitoring and can generate dumps based on the values of system 
+    performance counters.
+
+    It also can serve as a general process dump utility that you can embed in 
+    other scripts.
+  </longdescription>
+</pkgmetadata>
