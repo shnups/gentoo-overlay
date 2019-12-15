@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
-<!--
-For a full description look at:
-https://devmanual.gentoo.org/ebuild-writing/misc-files/metadata/
--->
 <pkgmetadata>
   <upstream>
     <bugs-to>https://github.com/microsoft/ProcDump-for-Linux/issues</bugs-to>
