@@ -9,7 +9,6 @@
   <maintainer type="person" status="active">
     <name>shnups</name>
     <email>romain.meson@gmail.com</email>
-    <description>Primary maintainer</description>
   </maintainer>
   <longdescription>
     ProcDump is a command-line utility whose primary purpose is monitoring an 
