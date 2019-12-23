@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <upstream>
+    <bugs-to>https://github.com/dtan4/k8sec/issues</bugs-to>
+    <changelog>https://github.com/dtan4/k8sec/blob/master/CHANGELOG.md</changelog>
+    <doc>https://github.com/dtan4/k8sec/blob/master/README.md</doc>
+  </upstream>    
+  <maintainer type="person" status="active">
+    <name>shnups</name>
+    <email>romain.meson@gmail.com</email>
+  </maintainer>
+  <longdescription>CLI tool to manage Kubernetes Secrets easily</longdescription>
+</pkgmetadata>
