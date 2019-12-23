@@ -54,27 +54,27 @@ SRC_URI="https://${EGO_PN}/archive/v${PV}.tar.gz -> ${P}.tar.gz ${EGO_VENDOR_URI
 LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64"
-IUSE=""
+IUSE="debug"
 DOCS=(CHANGELOG.md LICENSE README.md)
 
 DEPEND=">=dev-lang/go-1.12"
 
-#src_compile() {
-#	export GOPATH="${G}"
-#	local myldflags=(
-#		"$(usex !debug '-s -w' '')"
-#  -X "main.Version=${PV}"
-#  -X "main.Commit=${GIT_COMMIT}"
-#  -X "'main.Date=$(date -u '+%Y-%m-%dT%TZ')'"
-# )
-# local mygoargs=(
-#  -v -work -x
-#  -buildmode "$(usex pie pie exe)"
-#  -asmflags "all=-trimpath=${S}"
-#  -gcflags "all=-trimpath=${S}"
-#  -ldflags "${myldflags[*]}"
-# )
-	#go build "${mygoargs[@]}" || die
-#	go build || die "go build is dying"
-#}
+G="${WORKDIR}/${P}"
+S="${G}/src/${EGO_PN}"
 
+src_compile() {
+	export GOPATH="${G}"
+	local mygoargs=(
+		-v -work -x
+		-asmflags "-trimpath=${S}"
+		-gcflags "-trimpath=${S}"
+		-ldflags "$(usex !debug '-s -w' '')"
+		-o ./vc
+	)
+	go build "${mygoargs[@]}" "${S}" || die
+}
+
+src_install() {
+	newbin vc ${PN}
+	einstalldocs
+}
