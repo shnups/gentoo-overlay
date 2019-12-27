@@ -114,7 +114,7 @@ S="${G}/src/${EGO_PN}"
 #	go build "${mygoargs[@]}" "${S}" || die
 #}
 
-src_install() {
-	newbin vc ${PN}
-	einstalldocs
-}
+# src_install() {
+# 	newbin vc ${PN}
+# 	einstalldocs
+# }
