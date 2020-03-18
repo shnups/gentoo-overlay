@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <upstream>
+    <bugs-to>https://github.com/tsenart/vegeta/issues</bugs-to>
+    <changelog>https://github.com/tsenart/vegeta/releases</changelog>
+    <doc>https://github.com/tsenart/vegeta/blob/master/README.md</doc>
+  </upstream>    
+  <maintainer type="person" status="active">
+    <name>shnups</name>
+    <email>romain.meson@gmail.com</email>
+  </maintainer>
+  <longdescription lang="en">
+    Vegeta is a versatile HTTP load testing tool built out of
+    a need to drill HTTP services with a constant request rate.
+    It can be used both as a command line utility and a library.
+  </longdescription>
+</pkgmetadata>
