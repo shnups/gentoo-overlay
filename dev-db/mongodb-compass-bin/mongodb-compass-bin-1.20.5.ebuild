@@ -31,6 +31,7 @@ src_prepare() {
 }
 
 # domo # /usr/share/locale/[LANG]
+# dodoc?
 
 src_install() {
     mkdir -p "${ED}"
