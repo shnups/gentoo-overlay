@@ -3,7 +3,7 @@
 
 EAPI=7
 
-inherit unpacker xdg
+inherit unpacker
 
 MY_PN="${PN/-bin}"
 MY_P="${MY_PN}_${PV}"
@@ -30,12 +30,11 @@ src_prepare() {
     default
 }
 
-# domo # /usr/share/locale/[LANG]
-# dodoc?
-
 src_install() {
+    domo usr/share/${MY_PN}/locales/*
+    rm -rf usr/share/${MY_PN}/locales
+
     mkdir -p "${ED}"
     cp -r ./usr "${ED}"/
     default
 }
-
