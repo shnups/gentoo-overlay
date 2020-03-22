@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <upstream>
+    <bugs-to>https://github.com/Canop/broot/issues</bugs-to>
+    <changelog>https://github.com/Canop/broot/blob/master/CHANGELOG.md</changelog>
+    <doc>https://github.com/Canop/broot/blob/master/README.md</doc>
+  </upstream>    
+  <maintainer type="person" status="active">
+    <name>shnups</name>
+    <email>romain.meson@gmail.com</email>
+  </maintainer>
+  <longdescription lang="en">
+    A better way to navigate directories
+  </longdescription>
+</pkgmetadata>
