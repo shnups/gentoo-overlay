@@ -42,7 +42,7 @@ src_compile() {
 		-X "github.com/dtan4/k8sec/version.commit=${GIT_COMMIT}"
 	)
 	local goargs=(
-		-v -work -x
+		-v -work -x -mod=readonly
 		-asmflags "-trimpath=${S}"
 		-gcflags "-trimpath=${S}"
 		-ldflags "${ldflags[*]}"
