@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <upstream>
+    <bugs-to>https://github.com/doronbehar/pistol/issues</bugs-to>
+    <changelog>https://github.com/doronbehar/pistol/releases</changelog>
+    <doc>https://github.com/doronbehar/pistol/blob/master/README.md</doc>
+  </upstream>    
+  <maintainer type="person" status="active">
+    <name>shnups</name>
+    <email>romain.meson@gmail.com</email>
+  </maintainer>
+  <longdescription lang="en">
+    Pistol is a file previewer for command line file managers such as Ranger
+    and Lf intended to replace the file previewer scope.sh commonly used with
+    them.
+
+    scope.sh is a Bash script that uses case switches and external programs to
+    decide how to preview every file it encounters. It knows how to handle
+    every file according to it's MIME type and/or file extension using case
+    switches and external programs. This design makes it hard to configure and
+    maintain and it makes it slow for startup and heavy when running.
+
+    Pistol is a Go program (with (almost) 0 dependencies) and it's MIME type
+    detection is internal. Moreover, it features native preview support for
+    almost any archive file and for text files along with syntax highlighting
+    while scope.sh relies on external programs to do these basic tasks.
+  </longdescription>
+</pkgmetadata>
