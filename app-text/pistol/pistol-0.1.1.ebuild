@@ -42,28 +42,11 @@ DOCS=(LICENSE README.md)
 
 DEPEND=">=dev-lang/go-1.12"
 
-
 G="${WORKDIR}/${P}"
 S="${G}/src/${EGO_PN}"
 
 src_compile() {
-	export GOPATH="${G}"
-    export GO111MODULE="on"
-
-	local ldflags=(
-		"-s -w"
-		"-extldflags '-static'"
-		-X "main.Version=${PV}"
-	)
-	local goargs=(
-		-v -work -x
-		-asmflags "-trimpath=${S}"
-		-gcflags "-trimpath=${S}"
-		-ldflags "${ldflags[*]}"
-		-o "${PN}"
-	)
-
-	go build "${goargs[@]}" "${S}" || die
+	emake || die
 }
 
 src_install() {
