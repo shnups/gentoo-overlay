@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <upstream>
+    <bugs-to>https://github.com/orhun/kmon/issues</bugs-to>
+    <changelog>https://github.com/orhun/kmon/blob/master/CHANGELOG.md</changelog>
+    <doc>https://github.com/orhun/kmon/blob/master/README.md</doc>
+  </upstream>    
+  <maintainer type="person" status="active">
+    <name>shnups</name>
+    <email>romain.meson@gmail.com</email>
+  </maintainer>
+  <longdescription lang="en">
+    Linux Kernel Manager and Activity Monitor
+  </longdescription>
+</pkgmetadata>
