@@ -38,7 +38,7 @@ LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64"
 IUSE=""
-DOCS=(LICENSE README.md)
+DOCS=(LICENSE README.adoc)
 
 DEPEND=">=dev-lang/go-1.12"
 
