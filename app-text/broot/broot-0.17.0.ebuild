@@ -126,7 +126,7 @@ strict-0.1.3
 strsim-0.8.0
 syn-1.0.31
 term-0.6.1
-termimad-0.8.23
+termimad-0.8.24
 textwrap-0.11.0
 thiserror-1.0.20
 thiserror-impl-1.0.20
