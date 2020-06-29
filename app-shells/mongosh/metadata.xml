@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <upstream>
+    <!-- <bugs-to></bugs-to> -->
+    <changelog>https://github.com/mongodb-js/mongosh/releases</changelog>
+    <doc>https://docs.mongodb.com/mongodb-shell/</doc>
+  </upstream>    
+  <maintainer type="person" status="active">
+    <name>shnups</name>
+    <email>romain.meson@gmail.com</email>
+  </maintainer>
+  <longdescription lang="en">
+    a shell for MongoDB with a modern user experience that will grow in
+    functionality along with the MongoDB data platform
+  </longdescription>
+</pkgmetadata>
