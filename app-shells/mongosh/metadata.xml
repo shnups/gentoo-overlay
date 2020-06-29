@@ -2,7 +2,7 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <upstream>
-    <!-- <bugs-to></bugs-to> -->
+    <bugs-to>https://jira.mongodb.org/browse/MONGOSH/</bugs-to>
     <changelog>https://github.com/mongodb-js/mongosh/releases</changelog>
     <doc>https://docs.mongodb.com/mongodb-shell/</doc>
   </upstream>    
