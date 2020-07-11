@@ -64,32 +64,10 @@ G="${WORKDIR}/${P}"
 S="${G}/src/${EGO_PN}"
 
 src_compile() {
-	# Just calling emake would be enough if I can just override GIT variable in
-	# the Makefile, like:
-    # emake -e GIT="${GIT_COMMIT}" || die
-
-	export GOPATH="${G}"
-
-	local DATE=`date "+%Y-%m-%dT%H:%M:%S%z"`
-	local ldflags=(
-		"-s -w"
-		"-extldflags '-static'"
-		-X "${PN}"/cmd.version="${PV}"
-		-X "${PN}"/cmd.commit="${GIT_COMMIT}"
-		-X "${PN}"/cmd.date="${DATE}"
-	)
-	local goargs=(
-		-v -work -x
-		-asmflags "-trimpath=${S}"
-		-gcflags "-trimpath=${S}"
-		-ldflags "${ldflags[*]}"
-		-o "${PN}"
-	)
-
-	go build "${goargs[@]}" "${S}" || die
+    emake build -e GIT="${GIT_COMMIT}" -e VERSION="${PV}"|| die
 }
 
 src_install() {
-	dobin ${S}/${PN}
+	dobin "${S}/execs/${PN}"
 	einstalldocs
 }
