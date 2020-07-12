@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <upstream>
+    <bugs-to>https://github.com/ms-jpq/sad/issues/</bugs-to>
+    <changelog>https://github.com/ms-jpq/sad/releases</changelog>
+    <doc>https://github.com/ms-jpq/sad/blob/senpai/README.md/</doc>
+  </upstream>    
+  <maintainer type="person" status="active">
+    <name>shnups</name>
+    <email>romain.meson@gmail.com</email>
+  </maintainer>
+  <longdescription lang="en">
+    CLI search and replace | Space Age seD
+  </longdescription>
+</pkgmetadata>
