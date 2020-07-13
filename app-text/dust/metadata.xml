@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <upstream>
+    <bugs-to>https://github.com/bootandy/dust/issues</bugs-to>
+    <changelog>https://github.com/bootandy/dust/releases</changelog>
+    <doc>https://github.com/bootandy/dust/blob/master/README.md</doc>
+  </upstream>    
+  <maintainer type="person" status="active">
+    <name>shnups</name>
+    <email>romain.meson@gmail.com</email>
+  </maintainer>
+  <longdescription lang="en">
+    Dust is meant to give you an instant overview of which directories are
+    using disk space without requiring sort or head. Dust will print a maximum
+    of one 'Did not have permissions message'.
+    Dust will list a slightly-less-than-the-terminal-height number of the
+    biggest subdirectories or files and will smartly recurse down the tree to
+    find the larger ones. There is no need for a '-d' flag or a '-h' flag. The
+    largest subdirectories will be colored.
+  </longdescription>
+</pkgmetadata>
