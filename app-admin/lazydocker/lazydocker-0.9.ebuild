@@ -5,7 +5,6 @@ EAPI=7
 
 GIT_COMMIT="10617da5608990bf4911142745d31566bac6964a"
 EGO_PN="github.com/jesseduffield/lazydocker"
-# EGO_BUILD_FLAGS="-ldflags=\"-X main.version ${PV}\""
 EGO_VENDOR=(
 	"github.com/Azure/go-ansiterm d6e3b3328b78" # indirect
 	"github.com/Microsoft/go-winio v0.4.14" # indirect
@@ -64,10 +63,10 @@ KEYWORDS="~amd64"
 RESTRICT="mirror"
 DOCS=(CODE-OF-CONDUCT.md CONTRIBUTING.md LICENSE README.md)  # docs directory
 
-# DEPS
-# Docker >= 1.13 (API >= 1.25)
-# Docker-Compose >= 1.23.2 (optional)
-DEPEND=""
+DEPEND="
+    >=app-emulation/docker-1.13
+    >=app-emulation/docker-compose-1.23.2
+"
 RDEPEND="${DEPEND}"
 BDEPEND=">=dev-lang/go-1.8"
 
