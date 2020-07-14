@@ -14,10 +14,9 @@ SLOT="0"
 KEYWORDS="~amd64" 
 IUSE=""
 
+# dep on hadron-build?
 RDEPEND="${DEPEND}"
-DEPEND="net-libs/nodejs[npm]"
-# Node.js: ^12.4.0
-# npm: >= >=6.13.0
+DEPEND="=net-libs/nodejs-12.4*[npm]"
 
 S="${WORKDIR}/compass-${PV}"
 
@@ -31,17 +30,10 @@ src_compile() {
     npm run release compass
 }
 
-# src_install() {
-#     default
-#     #npm run release compass --debug
-# }
-
 # Manual changes:
 # package.json: engines/node: "^13.11"
 # $ npm install
 # $ npm run release compass
-# tout est dans le repertoire dist
+# everything ends up in dist directory
 
 # had to add electron "3.1.13" to deps in package.json
-# npm install, puis npm run release
-# change versions de node & npm (> 6.13.6 qui a le fix) dans package.json
