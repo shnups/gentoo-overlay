@@ -48,9 +48,9 @@ EGO_VENDOR=(
 	"golang.org/x/net ba9fcec4b297 github.com/golang/net"
 	"golang.org/x/sys d223b2b6db03 github.com/golang/sys" # indirect
 	"golang.org/x/text v0.3.2 github.com/golang/text" # indirect
-	# "google.golang.org/genproto 6af8c5fc6601" # indirect
-	# "google.golang.org/grpc v1.21.1" # indirect
-	# "gotest.tools v2.2.0+incompatible" # indirect
+	"google.golang.org/genproto 6af8c5fc6601 github.com/googleapis/go-genproto" # indirect
+	"google.golang.org/grpc v1.21.1 github.com/grpc/grpc-go" # indirect
+	"gotest.tools v2.2.0 github.com/gotestyourself/gotest.tools" # indirect
 )
 
 inherit golang-build golang-vcs-snapshot
