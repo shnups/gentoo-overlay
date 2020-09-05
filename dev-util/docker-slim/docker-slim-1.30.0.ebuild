@@ -65,17 +65,35 @@ IUSE=""
 RESTRICT="mirror"
 DOCS=(CHANGELOG.md CONTRIBUTING.md LICENSE README.md WISHLIST.md)
 
-DEPEND=">=dev-lang/go-1.13"
+BDEPEND=">=dev-lang/go-1.13"
 
 G="${WORKDIR}/${P}"
 S="${G}/src/${EGO_PN}"
 
 src_compile() {
-	make build
+	local BUILD_TIME="$(date -u '+%Y-%m-%d_%I:%M:%S%p')"
+
+	for bin in "${PN}" "${PN}-sensor"
+	do
+		local ldflags=(
+			-X "${EGO_PN}/pkg/version.appVersionTag=${PV}"
+			-X "${EGO_PN}/pkg/version.appVersionRev=${GIT_COMMIT}"
+			-X "${EGO_PN}/pkg/version.appVersionTime=${BUILD_TIME}"
+		)
+
+		local goargs=(
+			-trimpath
+			-ldflags "${ldflags[*]}"
+			-a -tags 'netgo osusergo'
+			-o "${bin}"
+			-v -work -x
+		)
+
+		GOPATH="${G}" go build "${goargs[@]}" "${S}/cmd/${bin}" || die
+	done
 }
 
 src_install() {
-	dobin "${S}/dist_linux/${PN}"
-	dobin "${S}/dist_linux/${PN}-sensor"
+	dobin "${S}/${PN}" "${S}/${PN}-sensor"
 	einstalldocs
 }
