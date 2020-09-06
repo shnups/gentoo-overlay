@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <upstream>
+    <bugs-to>https://github.com/erebe/greenclip/issues</bugs-to>
+    <changelog>https://github.com/erebe/greenclip/blob/master/changelog</changelog>
+    <doc>https://github.com/erebe/greenclip/blob/master/README.md</doc>
+  </upstream>    
+  <maintainer type="person" status="active">
+    <name>shnups</name>
+    <email>romain.meson@gmail.com</email>
+  </maintainer>
+  <longdescription lang="en">
+    Simple clipboard manager to be integrated with rofi.
+
+    Keeps track of your history of selections to quickly switch between them.
+
+    Recyle your clipboard selections with greenclip and don't waste your time
+    anymore to reselect things over and over.
+  </longdescription>
+</pkgmetadata>
