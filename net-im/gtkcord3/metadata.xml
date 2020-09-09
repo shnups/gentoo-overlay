@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <upstream>
+    <bugs-to>https://github.com/diamondburned/gtkcord3/issues</bugs-to>
+    <changelog>https://github.com/diamondburned/gtkcord3/releases</changelog>
+    <doc>https://github.com/diamondburned/gtkcord3/blob/master/README.md</doc>
+  </upstream>    
+  <maintainer type="person" status="active">
+    <name>shnups</name>
+    <email>romain.meson@gmail.com</email>
+  </maintainer>
+  <longdescription>A lightweight Discord client which uses GTK3 for the user interface.</longdescription>
+</pkgmetadata>
