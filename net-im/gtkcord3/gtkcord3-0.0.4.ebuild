@@ -45,12 +45,20 @@ RESTRICT="mirror"
 DOCS=(LICENSE README.md)
 
 # build dependencies: go (1.13+), gtk, libhandy, pkgconfig (refer to shell.nix)
-BDEPEND="
+DEPEND="
     >=dev-lang/go-1.13
+	x11-libs/gtk+:3
+    dev-util/pkgconfig
     gui-libs/libhandy
-    virtual/pkgconfig
 "
-DEPEND="${BDEPEND}"
+RDEPEND="${DEPEND}"
+BDEPEND="
+	>=dev-lang/go-1.13
+    dev-util/pkgconfig
+	x11-libs/gtk+:3
+    gui-libs/libhandy
+"
+
 
 G="${WORKDIR}/${P}"
 S="${G}/src/${EGO_PN}"
