@@ -6,11 +6,13 @@
     <changelog>https://github.com/chmln/enact/releases</changelog>
     <doc>https://github.com/chmln/enact/blob/master/README.md</doc>
   </upstream>    
-  <maintainer type="person" status="active">
+  <maintainer type="person">
     <name>shnups</name>
     <email>romain.meson@gmail.com</email>
   </maintainer>
   <longdescription lang="en">
+    Easy dual-monitor setup and hotplug support for minimalistic window managers.
+
     enact will detect the proper resolution of your secondary monitor (if any)
     and automatically set it up as soon as you plug it in (or out).
     It uses xrandr under the hood and works great with window managers like i3,
