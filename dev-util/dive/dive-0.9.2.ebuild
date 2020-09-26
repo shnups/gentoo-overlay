@@ -1,4 +1,4 @@
-# Copyright 2019 Gentoo Authors
+# Copyright 1999-2020 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
@@ -54,7 +54,6 @@ EGO_VENDOR=(
 )
 
 inherit golang-build golang-vcs-snapshot
-
 
 DESCRIPTION="A tool for exploring each layer in a docker image"
 HOMEPAGE="https://${EGO_PN}"

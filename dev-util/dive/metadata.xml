@@ -6,7 +6,7 @@
     <changelog>https://github.com/wagoodman/dive/releases</changelog>
     <doc>https://github.com/wagoodman/dive/blob/master/README.md</doc>
   </upstream>    
-  <maintainer type="person" status="active">
+  <maintainer type="person">
     <name>shnups</name>
     <email>romain.meson@gmail.com</email>
   </maintainer>
