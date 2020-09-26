@@ -3,7 +3,7 @@
 
 EAPI=7
 
-DESCRIPTION="Command-line tool to work with users, groups, vaults, and items in a 1Password account"
+DESCRIPTION="Command-line to work with users, groups, vaults and items in a 1Password account"
 HOMEPAGE="https://1password.com/downloads/command-line/"
 SRC_URI="https://cache.agilebits.com/dist/1P/op/pkg/v${PV}/op_linux_amd64_v${PV}.zip"
 
@@ -14,5 +14,5 @@ RESTRICT="mirror strip"
 S="${WORKDIR}"
 
 src_install() {
-    dobin "op"
+	dobin "op"
 }

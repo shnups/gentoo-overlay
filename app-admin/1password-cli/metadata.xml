@@ -5,7 +5,7 @@
     <changelog>https://app-updates.agilebits.com/product_history/CLI</changelog>
     <doc>https://support.1password.com/command-line/</doc>
   </upstream>    
-  <maintainer type="person" status="active">
+  <maintainer type="person">
     <name>shnups</name>
     <email>romain.meson@gmail.com</email>
   </maintainer>
