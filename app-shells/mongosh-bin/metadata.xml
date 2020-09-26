@@ -6,12 +6,12 @@
     <changelog>https://github.com/mongodb-js/mongosh/releases</changelog>
     <doc>https://docs.mongodb.com/mongodb-shell/</doc>
   </upstream>    
-  <maintainer type="person" status="active">
+  <maintainer type="person">
     <name>shnups</name>
     <email>romain.meson@gmail.com</email>
   </maintainer>
   <longdescription lang="en">
-    a shell for MongoDB with a modern user experience that will grow in
+    A shell for MongoDB with a modern user experience that will grow in
     functionality along with the MongoDB data platform
   </longdescription>
 </pkgmetadata>
