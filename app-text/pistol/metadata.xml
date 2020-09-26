@@ -6,7 +6,7 @@
     <changelog>https://github.com/doronbehar/pistol/releases</changelog>
     <doc>https://github.com/doronbehar/pistol/blob/master/README.md</doc>
   </upstream>    
-  <maintainer type="person" status="active">
+  <maintainer type="person">
     <name>shnups</name>
     <email>romain.meson@gmail.com</email>
   </maintainer>

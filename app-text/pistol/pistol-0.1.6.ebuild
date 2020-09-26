@@ -5,7 +5,7 @@ EAPI=7
 inherit go-module
 GIT_COMMIT="69aaad4"
 
-DESCRIPTION="General purpose file previewer designed for Ranger, Lf to make scope.sh redundant"
+DESCRIPTION="General purpose file previewer designed for Ranger/Lf to make scope.sh redundant"
 HOMEPAGE="https://github.com/doronbehar/pistol"
 
 EGO_SUM=(

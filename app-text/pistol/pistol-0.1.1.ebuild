@@ -30,7 +30,7 @@ EGO_VENDOR=(
 
 inherit golang-build golang-vcs-snapshot
 
-DESCRIPTION="General purpose file previewer designed for Ranger, Lf to make scope.sh redundant"
+DESCRIPTION="General purpose file previewer designed for Ranger/Lf to make scope.sh redundant"
 HOMEPAGE="https://${EGO_PN}"
 SRC_URI="https://${EGO_PN}/archive/v${PV}.tar.gz -> ${P}.tar.gz ${EGO_VENDOR_URI}"
 
