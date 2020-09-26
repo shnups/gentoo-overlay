@@ -1,4 +1,4 @@
-# Copyright-1999-2020 Gentoo Authors
+# Copyright 1999-2020 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
@@ -68,9 +68,9 @@ RDEPEND="${DEPEND}"
 BDEPEND=">=virtual/rust-1.41.1"
 
 src_install() {
-    doman "${S}/man/${PN}.8"
-    rm -rf "${S}/man"
+	doman "${S}/man/${PN}.8"
+	rm -rf "${S}/man"
 
-    cargo_src_install
-    einstalldocs
+	cargo_src_install
+	einstalldocs
 }
