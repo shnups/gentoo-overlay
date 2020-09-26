@@ -21,17 +21,17 @@ DOCS="copyright"
 S="${WORKDIR}"
 
 src_unpack() {
-    unpack_deb "${A}"
+	unpack_deb ${A}
 }
 
 src_prepare() {
-    mv usr/share/doc/${MY_PN}/copyright .
-    rm -rf usr/share/doc
-    default
+	mv usr/share/doc/${MY_PN}/copyright .
+	rm -rf usr/share/doc
+	default
 }
 
 src_install() {
-    mkdir -p "${ED}"
-    cp -r ./usr "${ED}"/
-    default
+	mkdir -p "${ED}"
+	cp -r ./usr "${ED}"/
+	default
 }
