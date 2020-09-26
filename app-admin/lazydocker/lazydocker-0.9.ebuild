@@ -53,7 +53,7 @@ EGO_VENDOR=(
 
 inherit golang-build golang-vcs-snapshot
 
-DESCRIPTION="A simple terminal UI for both docker and docker-compose, written in Go with the gocui library"
+DESCRIPTION="A simple terminal UI for both docker and docker-compose"
 HOMEPAGE="https://github.com/${EGO_PN}"
 SRC_URI="https://github.com/${EGO_PN}/archive/v${PV}.tar.gz -> ${P}.tar.gz ${EGO_VENDOR_URI}"
 
@@ -64,8 +64,8 @@ RESTRICT="mirror"
 DOCS=(CODE-OF-CONDUCT.md CONTRIBUTING.md LICENSE README.md)  # docs directory
 
 DEPEND="
-    >=app-emulation/docker-1.13
-    >=app-emulation/docker-compose-1.23.2
+	>=app-emulation/docker-1.13
+	>=app-emulation/docker-compose-1.23.2
 "
 RDEPEND="${DEPEND}"
 BDEPEND=">=dev-lang/go-1.8"
@@ -74,12 +74,12 @@ G="${WORKDIR}/${P}"
 S="${G}/src/${EGO_PN}"
 
 src_compile() {
-    local DATE=`date -u +"%Y-%m-%dT%H:%M:%SZ"`
+	local DATE=`date -u +"%Y-%m-%dT%H:%M:%SZ"`
 	local ldflags=(
 		-X "main.commit=${GIT_COMMIT}"
 		-X "main.version=${PV}"
 		-X "main.date=${DATE}"
-        -X "main.buildSource=portage"
+		-X "main.buildSource=portage"
 	)
 
 	GOPATH="${G}" go build -v -work -x -ldflags "${ldflags[*]}" "${EGO_PN}" || die
