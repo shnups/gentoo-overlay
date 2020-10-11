@@ -49,25 +49,20 @@ G="${WORKDIR}/${P}"
 S="${G}/src/${EGO_PN}"
 
 src_compile() {
-	export GOPATH="${G}"
-
 	local DATE=`date +'%FT%TZ%z'`
 	local ldflags=(
-		"-s -w"
-		"-extldflags '-static'"
 		-X "main.Version=${PV}"
 		-X "main.Commit=${GIT_COMMIT}"
 		-X "main.Date=${DATE}"
 	)
 	local goargs=(
-		-v -work -x
-		-asmflags "-trimpath=${S}"
-		-gcflags "-trimpath=${S}"
+		-trimpath
 		-ldflags "${ldflags[*]}"
-		-o "${PN}"
+		-o "${bin}"
+		-v -work -x
 	)
 
-	go build "${goargs[@]}" "${S}" || die
+	GOPATH="${G}" go build "${goargs[@]}" "${S}" || die
 }
 
 src_install() {
