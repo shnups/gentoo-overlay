@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <upstream>
+    <bugs-to>https://github.com/go-task/task/issues</bugs-to>
+    <changelog>https://github.com/go-task/task/blob/v3.0.0/CHANGELOG.md</changelog>
+    <doc>https://taskfile.dev/#/</doc>
+  </upstream>    
+  <maintainer type="person">
+    <name>shnups</name>
+    <email>romain.meson@gmail.com</email>
+  </maintainer>
+  <longdescription>
+    Task is a task runner / build tool that aims to be simpler and easier to use than, for example, GNU Make.
+  </longdescription>
+</pkgmetadata>
