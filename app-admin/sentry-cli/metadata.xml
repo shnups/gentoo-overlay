@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <upstream>
+    <bugs-to>https://github.com/getsentry/sentry-cli/issues</bugs-to>
+    <changelog>https://github.com/getsentry/sentry-cli/releases</changelog>
+    <doc>https://docs.sentry.io/cli/</doc>
+  </upstream>    
+  <maintainer type="person">
+    <name>shnups</name>
+    <email>romain.meson@gmail.com</email>
+  </maintainer>
+  <longdescription lang="en">
+    A command line utility to work with Sentry
+  </longdescription>
+</pkgmetadata>
