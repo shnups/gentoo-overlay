@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <upstream>
+    <bugs-to>https://github.com/microsoft/ProcMon-for-Linux/issues</bugs-to>
+    <changelog>https://github.com/microsoft/ProcMon-for-Linux/releases</changelog>
+    <doc>https://github.com/microsoft/ProcMon-for-Linux/blob/main/README.md</doc>
+  </upstream>    
+  <maintainer type="person">
+    <name>shnups</name>
+    <email>romain.meson@gmail.com</email>
+  </maintainer>
+  <longdescription>
+    Process Monitor (Procmon) is a Linux reimagining of the classic Procmon
+    tool from the Sysinternals suite of tools for Windows.
+    Procmon provides a convenient and efficient way for Linux developers to
+    trace the syscall activity on the system.
+  </longdescription>
+</pkgmetadata>
