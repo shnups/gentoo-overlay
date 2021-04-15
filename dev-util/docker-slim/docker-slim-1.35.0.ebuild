@@ -13,7 +13,6 @@ EGO_VENDOR=(
 	"github.com/antchfx/xmlquery v1.2.4" # indirect
 	"github.com/antchfx/xpath v1.1.8" # indirect
 	"github.com/bmatcuk/doublestar v1.3.4"
-	# "github.com/bmatcuk/doublestar/v3 v3.0.0"
 	"github.com/bradfitz/iter e8f45d346db8" # indirect
 	"github.com/c-bata/go-prompt v0.2.3"
 	"github.com/c4milo/unpackit 4ed373e9ef1c"
