@@ -30,7 +30,7 @@ RDEPEND="
 "
 BDEPEND="
 	>=dev-util/bcc-0.10.0
-	>=dev-util/cmake-3.13
+	>=dev-util/cmake-3.14
 "
 DEPEND="${RDEPEND}"
 
