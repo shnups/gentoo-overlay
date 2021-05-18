@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <upstream>
+    <changelog>https://app-updates.agilebits.com/product_history/CLI</changelog>
+    <doc>https://support.1password.com/command-line/</doc>
+  </upstream>    
+  <maintainer type="person">
+    <name>shnups</name>
+    <email>romain.meson@gmail.com</email>
+  </maintainer>
+  <longdescription lang="en">
+    Command-line tool to work with users, groups, vaults, and items in a 1Password account
+  </longdescription>
+</pkgmetadata>
