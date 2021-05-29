@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <upstream>
+    <bugs-to>https://github.com/maximbaz/yubikey-touch-detector/issues</bugs-to>
+    <changelog>https://github.com/maximbaz/yubikey-touch-detector/releases</changelog>
+    <doc>https://github.com/maximbaz/yubikey-touch-detector/blob/master/README.md</doc>
+  </upstream>    
+  <maintainer type="person">
+    <name>shnups</name>
+    <email>romain.meson@gmail.com</email>
+  </maintainer>
+  <longdescription>
+    This is a tool that can detect when YubiKey is waiting for your touch.
+    
+    It is designed to be integrated with other UI components to display a visible
+    indicator.
+  </longdescription>
+</pkgmetadata>
