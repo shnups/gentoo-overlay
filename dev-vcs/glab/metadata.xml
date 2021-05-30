@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <upstream>
+    <bugs-to>https://github.com/profclems/glab/issues</bugs-to>
+    <changelog>https://github.com/profclems/glab/releases</changelog>
+    <doc>https://github.com/profclems/glab/blob/master/README.md</doc>
+  </upstream>    
+  <maintainer type="person">
+    <name>shnups</name>
+    <email>romain.meson@gmail.com</email>
+  </maintainer>
+  <longdescription>
+    GLab is an open source GitLab CLI tool bringing GitLab to your terminal next to
+    where you are already working with git and your code without switching between
+    windows and browser tabs. Work with issues, merge requests, watch running pipelines
+    directly from your CLI among other features. Inspired by gh, the official GitHub
+    CLI tool.
+
+    glab is available for repositories hosted on GitLab.com and self-hosted GitLab
+    Instances. glab supports multiple authenticated GitLab instances and automatically
+    detects the authenticated hostname from the remotes available in the working git
+    directory.
+  </longdescription>
+</pkgmetadata>
