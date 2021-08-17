@@ -100,3 +100,5 @@ src_install() {
 	cargo_src_install
 	einstalldocs
 }
+
+# TODO: sad --version still returns 0.4.8
