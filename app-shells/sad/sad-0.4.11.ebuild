@@ -82,9 +82,10 @@ CRATES="
 
 inherit cargo
 
+CI_BUILD_DATETIME="2021-08-12_13-05"
 DESCRIPTION="CLI search and replace | Space Age seD"
 HOMEPAGE="https://github.com/ms-jpq/${PN}"
-SRC_URI="$(cargo_crate_uris ${CRATES}) https://github.com/ms-jpq/sad/archive/${PV}.tar.gz -> ${P}.tar.gz"
+SRC_URI="$(cargo_crate_uris ${CRATES}) https://github.com/ms-jpq/sad/archive/refs/tags/ci_${PV}_${CI_BUILD_DATETIME}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
@@ -92,6 +93,8 @@ KEYWORDS="~amd64"
 IUSE=""
 RESTRICT="mirror"
 DOCS=(LICENSE README.md release_notes.md)
+
+S="${WORKDIR}"
 
 src_install() {
 	cargo_src_install
