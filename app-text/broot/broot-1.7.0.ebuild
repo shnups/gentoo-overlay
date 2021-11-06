@@ -219,7 +219,7 @@ DOCS=(CHANGELOG.md documentation.md features.md LICENSE README.md)
 
 DEPEND=""
 RDEPEND="${DEPEND}"
-BDEPEND=">=virtual/rust-1.46.0"
+BDEPEND=">=virtual/rust-1.56.0"
 
 src_install() {
 	newman "${S}/man/page" "${PN}.1"
