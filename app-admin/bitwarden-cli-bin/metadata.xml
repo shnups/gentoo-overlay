@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <upstream>
+    <bugs-to>https://github.com/bitwarden/cli/issues</bugs-to>
+    <changelog>https://github.com/bitwarden/cli/releases</changelog>
+    <doc>https://github.com/bitwarden/cli/blob/master/README.md</doc>
+  </upstream>    
+  <maintainer type="person">
+    <name>shnups</name>
+    <email>romain.meson@gmail.com</email>
+  </maintainer>
+  <longdescription lang="en">
+    The Bitwarden CLI is a powerful, full-featured command-line interface (CLI) tool to access and manage a Bitwarden vault
+  </longdescription>
+</pkgmetadata>
