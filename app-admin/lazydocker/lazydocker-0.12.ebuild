@@ -1,4 +1,4 @@
-# Copyright 1999-2020 Gentoo Authors
+# Copyright 1999-2021 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
@@ -64,8 +64,8 @@ RESTRICT="mirror"
 DOCS=(CODE-OF-CONDUCT.md CONTRIBUTING.md LICENSE README.md)  # docs directory
 
 DEPEND="
-	>=app-emulation/docker-1.13
-	>=app-emulation/docker-compose-1.23.2
+	>=app-containers/docker-1.13
+	>=app-containers/docker-compose-1.23.2
 "
 RDEPEND="${DEPEND}"
 BDEPEND=">=dev-lang/go-1.12"
