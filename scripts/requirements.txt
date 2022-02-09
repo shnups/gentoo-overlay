@@ -1,1 +1,5 @@
+httpx==0.22.0
+pyclip==0.5.4
+rich==11.2.0
+toml==0.10.2
 typer==0.3.0
