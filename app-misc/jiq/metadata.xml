@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <upstream>
+    <bugs-to>https://github.com/fiatjaf/jiq/issues</bugs-to>
+    <changelog>https://github.com/fiatjaf/jiq/releases</changelog>
+    <doc>https://github.com/fiatjaf/jiq/blob/master/README.md</doc>
+  </upstream>    
+  <maintainer type="person">
+    <name>shnups</name>
+    <email>romain.meson@gmail.com</email>
+  </maintainer>
+  <longdescription lang="en">
+    jid on jq - interactive JSON query tool using jq expressions
+  </longdescription>
+</pkgmetadata>
