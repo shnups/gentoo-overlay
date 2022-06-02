@@ -1,4 +1,4 @@
-httpx==0.22.0
+httpx==0.23.0
 pyclip==0.5.4
 rich==11.2.0
 toml==0.10.2
