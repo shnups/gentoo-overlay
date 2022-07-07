@@ -21,7 +21,7 @@ CRATES="
 	bincode-1.3.3
 	bit_field-0.10.1
 	bitflags-1.3.2
-	broot-1.14.0
+	broot-1.14.1
 	bstr-0.2.17
 	bumpalo-3.10.0
 	bytemuck-1.10.0
