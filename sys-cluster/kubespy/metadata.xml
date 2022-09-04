@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <upstream>
+    <bugs-to>https://github.com/pulumi/kubespy/issues</bugs-to>
+    <changelog>https://github.com/pulumi/kubespy/releases</changelog>
+    <doc>https://github.com/pulumi/kubespy/blob/master/README.md</doc>
+  </upstream>
+  <maintainer type="person">
+    <name>shnups</name>
+    <email>romain.meson@gmail.com</email>
+  </maintainer>
+  <longdescription>
+    What happens when you boot up a Pod? What happens to a Service before it is
+    allocated a public IP address? How often is a Deployment's status changing?
+
+    kubespy is a small tool that makes it easy to observe how Kubernetes resources
+    change in real time, derived from the work we did to make Kubernetes deployments
+    predictable in Pulumi's CLI. Run kubespy at any point in time, and it will
+    watch and report information about a Kubernetes resource continuously until
+    you kill it.
+  </longdescription>
+</pkgmetadata>
