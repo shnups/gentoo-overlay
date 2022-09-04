@@ -3,7 +3,7 @@
 
 EAPI=7
 
-GIT_COMMIT="b05ac83b152f1ff0595f7e7056aa0b70b18594e3"
+EGIT_COMMIT="b05ac83b152f1ff0595f7e7056aa0b70b18594e3"
 EGO_PN="github.com/pulumi/${PN}"
 EGO_VENDOR=(
 	"github.com/fatih/color v1.9.0"
