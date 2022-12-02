@@ -2,10 +2,10 @@
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <upstream>
-    <bugs-to>https://github.com/profclems/glab/issues</bugs-to>
-    <changelog>https://github.com/profclems/glab/releases</changelog>
-    <doc>https://github.com/profclems/glab/blob/master/README.md</doc>
-  </upstream>    
+    <bugs-to>https://gitlab.com/gitlab-org/cli/-/issues</bugs-to>
+    <changelog>https://gitlab.com/gitlab-org/cli/-/releases</changelog>
+    <doc>https://gitlab.com/gitlab-org/cli/-/blob/main/docs/source/index.md</doc>
+  </upstream>
   <maintainer type="person">
     <name>shnups</name>
     <email>romain.meson@gmail.com</email>
