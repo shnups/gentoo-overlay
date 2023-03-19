@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <upstream>
+    <bugs-to>https://github.com/one2nc/cloudlens/issues</bugs-to>
+    <changelog>https://github.com/one2nc/cloudlens/releases</changelog>
+    <doc>https://one2n.gitbook.io/docs/</doc>
+  </upstream>
+  <maintainer type="person">
+    <name>shnups</name>
+    <email>romain.meson@gmail.com</email>
+  </maintainer>
+  <longdescription lang="en">
+    AWS Console in your terminal! well, almost. Explore AWS services like EC2,
+    S3, IAM, VPC, etc. from your terminal.
+    If you like k9s for Kubernetes, you'll love cloudlens.
+  </longdescription>
+</pkgmetadata>
