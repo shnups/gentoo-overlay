@@ -17,17 +17,6 @@ DEPEND=""
 RDEPEND="${DEPEND}"
 BDEPEND=""
 
-# src_unpack() {
-# 	default
-# 	mkdir "${S}"
-# 	mv bw "${S}/"
-# }
-
-# src_compile() {
-# 	chmod u+x bw
-# 	use zsh-completion && ./bw completion --shell zsh > _bw
-# }
-
 src_install() {
 	dobin execs/${PN}
 }
