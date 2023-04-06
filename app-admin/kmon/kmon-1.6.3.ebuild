@@ -1,0 +1,129 @@
+# Copyright 1999-2023 Gentoo Authors
+# Distributed under the terms of the GNU General Public License v2
+
+EAPI=7
+
+CRATES="
+	anstream-0.2.6
+	anstyle-0.3.5
+	anstyle-parse-0.1.1
+	anstyle-wincon-0.2.0
+	autocfg-1.1.0
+	bitflags-1.3.2
+	block-0.1.6
+	bytesize-1.2.0
+	cassowary-0.3.0
+	cc-1.0.79
+	cfg-if-1.0.0
+	clap-4.2.1
+	clap_builder-4.2.1
+	clap_complete-4.2.0
+	clap_lex-0.4.1
+	clap_mangen-0.2.10
+	clipboard-win-3.1.1
+	colorsys-0.6.7
+	concolor-override-1.0.0
+	concolor-query-0.3.3
+	copypasta-0.8.2
+	copypasta-ext-0.4.4
+	dlib-0.5.0
+	downcast-rs-1.2.0
+	either-1.8.1
+	enum-iterator-1.4.0
+	enum-iterator-derive-1.2.0
+	errno-0.3.0
+	errno-dragonfly-0.1.2
+	gethostname-0.2.3
+	hermit-abi-0.3.1
+	io-lifetimes-1.0.10
+	is-terminal-0.4.7
+	kmon-1.6.3
+	lazy-bytes-cast-5.0.1
+	lazy_static-1.4.0
+	libc-0.2.141
+	libloading-0.7.4
+	linux-raw-sys-0.3.1
+	log-0.4.17
+	malloc_buf-0.0.6
+	memchr-2.5.0
+	memmap2-0.5.10
+	memoffset-0.6.5
+	minimal-lexical-0.2.1
+	nix-0.24.3
+	nom-7.1.3
+	numtoa-0.1.0
+	objc-0.2.7
+	objc-foundation-0.1.1
+	objc_id-0.1.1
+	once_cell-1.17.1
+	pkg-config-0.3.26
+	proc-macro2-1.0.56
+	quote-1.0.26
+	ratatui-0.20.1
+	redox_syscall-0.2.16
+	redox_termios-0.1.2
+	roff-0.2.1
+	rustix-0.37.8
+	scoped-tls-1.0.1
+	smallvec-1.10.0
+	smithay-client-toolkit-0.16.0
+	smithay-clipboard-0.6.6
+	strsim-0.10.0
+	syn-1.0.109
+	termion-2.0.1
+	unicode-ident-1.0.8
+	unicode-segmentation-1.10.1
+	unicode-width-0.1.10
+	utf8parse-0.2.1
+	wayland-client-0.29.5
+	wayland-commons-0.29.5
+	wayland-cursor-0.29.5
+	wayland-protocols-0.29.5
+	wayland-scanner-0.29.5
+	wayland-sys-0.29.5
+	which-4.4.0
+	winapi-0.3.9
+	winapi-i686-pc-windows-gnu-0.4.0
+	winapi-wsapoll-0.1.1
+	winapi-x86_64-pc-windows-gnu-0.4.0
+	windows-sys-0.45.0
+	windows-sys-0.48.0
+	windows-targets-0.42.2
+	windows-targets-0.48.0
+	windows_aarch64_gnullvm-0.42.2
+	windows_aarch64_gnullvm-0.48.0
+	windows_aarch64_msvc-0.42.2
+	windows_aarch64_msvc-0.48.0
+	windows_i686_gnu-0.42.2
+	windows_i686_gnu-0.48.0
+	windows_i686_msvc-0.42.2
+	windows_i686_msvc-0.48.0
+	windows_x86_64_gnu-0.42.2
+	windows_x86_64_gnu-0.48.0
+	windows_x86_64_gnullvm-0.42.2
+	windows_x86_64_gnullvm-0.48.0
+	windows_x86_64_msvc-0.42.2
+	windows_x86_64_msvc-0.48.0
+	x11-clipboard-0.7.1
+	x11rb-0.10.1
+	x11rb-protocol-0.10.0
+	xcursor-0.3.4
+	xml-rs-0.8.4
+"
+
+inherit cargo
+
+DESCRIPTION="Linux Kernel Manager and Activity Monitor"
+HOMEPAGE="https://github.com/orhun/${PN}"
+SRC_URI="$(cargo_crate_uris ${CRATES})"
+
+LICENSE="GPL-3"
+SLOT="0"
+KEYWORDS="~amd64"
+IUSE=""
+RESTRICT="mirror"
+DOCS=(CHANGELOG.md CODE_OF_CONDUCT.md CONTRIBUTING.md LICENSE README.md RELEASE.md)
+
+DEPEND=""
+RDEPEND="${DEPEND}"
+BDEPEND=">=virtual/rust-1.64.0"
