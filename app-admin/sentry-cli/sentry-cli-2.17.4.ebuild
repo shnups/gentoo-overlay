@@ -240,12 +240,12 @@ CRATES="
 	semver-0.9.0
 	semver-1.0.16
 	semver-parser-0.7.0
-	sentry-0.29.3
-	sentry-anyhow-0.29.3
-	sentry-backtrace-0.29.3
-	sentry-contexts-0.29.3
-	sentry-core-0.29.3
-	sentry-types-0.29.3
+	sentry-0.31.0
+	sentry-anyhow-0.31.0
+	sentry-backtrace-0.31.0
+	sentry-contexts-0.31.0
+	sentry-core-0.31.0
+	sentry-types-0.31.0
 	serde-1.0.152
 	serde_derive-1.0.152
 	serde_json-1.0.93
