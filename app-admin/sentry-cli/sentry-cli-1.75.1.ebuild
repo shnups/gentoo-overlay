@@ -17,7 +17,6 @@ CRATES="
 	autocfg-1.0.1
 	backoff-0.3.0
 	backtrace-0.3.63
-	base64-0.10.1
 	base64-0.13.0
 	bitflags-1.3.2
 	bitvec-1.0.0
@@ -52,6 +51,7 @@ CRATES="
 	csv-core-0.1.10
 	curl-0.4.42
 	curl-sys-0.4.52+curl-7.81.0
+	data-encoding-2.3.3
 	debugid-0.7.2
 	difflib-0.4.0
 	digest-0.8.1
@@ -103,9 +103,7 @@ CRATES="
 	httpdate-1.0.2
 	humantime-2.1.0
 	humantime-serde-1.0.1
-	idna-0.1.5
 	idna-0.2.3
-	if_chain-0.1.3
 	if_chain-1.0.2
 	ignore-0.4.18
 	indent_write-2.2.0
@@ -168,7 +166,6 @@ CRATES="
 	parking_lot_core-0.9.1
 	pathdiff-0.2.1
 	pdb-0.7.0
-	percent-encoding-1.0.1
 	percent-encoding-2.1.0
 	pest-2.1.3
 	pest_derive-2.1.0
@@ -184,10 +181,8 @@ CRATES="
 	predicates-2.1.1
 	predicates-core-1.0.3
 	prettytable-rs-0.10.0
-	proc-macro2-0.4.30
 	proc-macro2-1.0.36
 	proguard-4.1.1
-	quote-0.6.13
 	quote-1.0.15
 	r2d2-0.8.9
 	radium-0.7.0
@@ -215,10 +210,9 @@ CRATES="
 	schannel-0.1.19
 	scheduled-thread-pool-0.2.5
 	scopeguard-1.1.0
-	scroll-0.9.2
 	scroll-0.10.2
 	scroll-0.11.0
-	scroll_derive-0.9.5
+	scroll_derive-0.10.5
 	scroll_derive-0.11.0
 	semver-0.9.0
 	semver-1.0.4
@@ -244,14 +238,13 @@ CRATES="
 	snapbox-0.2.9
 	snapbox-macros-0.2.1
 	socket2-0.4.4
-	sourcemap-5.0.0
+	sourcemap-6.2.3
 	stable_deref_trait-1.2.0
 	string_cache-0.8.2
 	strsim-0.8.0
 	symbolic-8.7.0
 	symbolic-common-8.7.0
 	symbolic-debuginfo-8.7.0
-	syn-0.15.44
 	syn-1.0.86
 	synstructure-0.12.6
 	tap-1.0.1
@@ -273,12 +266,11 @@ CRATES="
 	typenum-1.15.0
 	ucd-trie-0.1.3
 	unicode-bidi-0.3.7
+	unicode-id-0.3.3
 	unicode-normalization-0.1.19
 	unicode-width-0.1.9
-	unicode-xid-0.1.0
 	unicode-xid-0.2.2
 	unix-daemonize-0.1.2
-	url-1.7.2
 	url-2.2.2
 	username-0.2.0
 	uuid-0.8.2
