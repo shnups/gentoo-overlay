@@ -325,7 +325,7 @@ DOCS=(CHANGELOG.md LICENSE README.md)
 
 DEPEND=""
 RDEPEND="${DEPEND}"
-BDEPEND=">=virtual/rust-1.46.0"
+BDEPEND=">=virtual/rust-1.65.0"
 
 src_install() {
 	cargo_src_install
