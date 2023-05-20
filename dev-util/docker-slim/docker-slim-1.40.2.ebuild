@@ -4,7 +4,7 @@
 EAPI=7
 
 inherit go-module
-GIT_COMMIT="9c5e69ab1fd4564b0a5426d47be038155e63e4c1"
+GIT_COMMIT="92f6ac93c667733b6f08c6d159d2a8be7625219b"
 EGO_SUM=(
 	"bazil.org/fuse v0.0.0-20160811212531-371fbbdaa898/go.mod"
 	"cloud.google.com/go v0.26.0/go.mod"
