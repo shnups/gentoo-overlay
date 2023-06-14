@@ -40,8 +40,8 @@ CRATES="
 	chardet-0.2.4
 	chrono-0.4.23
 	cipher-0.3.0
-	clap-3.2.23
-	clap_lex-0.2.4
+	clap-4.1.6
+	clap_lex-0.3.1
 	codespan-reporting-0.11.1
 	colored-2.0.0
 	concolor-0.0.11
@@ -65,6 +65,7 @@ CRATES="
 	cxx-build-1.0.88
 	cxxbridge-flags-1.0.88
 	cxxbridge-macro-1.0.88
+	data-encoding-2.3.3
 	debugid-0.8.0
 	difflib-0.4.0
 	digest-0.10.6
@@ -171,7 +172,7 @@ CRATES="
 	opaque-debug-0.3.0
 	open-3.2.0
 	openssl-probe-0.1.5
-	openssl-src-111.24.0+1.1.1s
+	openssl-src-111.25.0+1.1.1t
 	openssl-sys-0.9.80
 	ordered-multimap-0.4.3
 	os_info-3.5.1
@@ -239,12 +240,12 @@ CRATES="
 	semver-0.9.0
 	semver-1.0.16
 	semver-parser-0.7.0
-	sentry-0.29.3
-	sentry-anyhow-0.29.3
-	sentry-backtrace-0.29.3
-	sentry-contexts-0.29.3
-	sentry-core-0.29.3
-	sentry-types-0.29.3
+	sentry-0.31.2
+	sentry-anyhow-0.31.2
+	sentry-backtrace-0.31.2
+	sentry-contexts-0.31.2
+	sentry-core-0.31.2
+	sentry-types-0.31.2
 	serde-1.0.152
 	serde_derive-1.0.152
 	serde_json-1.0.93
@@ -262,24 +263,23 @@ CRATES="
 	snapbox-0.4.4
 	snapbox-macros-0.3.1
 	socket2-0.4.7
-	sourcemap-6.2.1
+	sourcemap-6.2.3
 	stable_deref_trait-1.2.0
 	string_cache-0.8.4
 	strsim-0.10.0
 	subtle-2.4.1
-	symbolic-11.1.0
-	symbolic-common-11.1.0
-	symbolic-debuginfo-11.1.0
-	symbolic-il2cpp-11.1.0
-	symbolic-ppdb-11.1.0
-	symbolic-symcache-11.1.0
+	symbolic-12.0.0
+	symbolic-common-12.0.0
+	symbolic-debuginfo-12.0.0
+	symbolic-il2cpp-12.0.0
+	symbolic-ppdb-12.0.0
+	symbolic-symcache-12.0.0
 	syn-1.0.107
 	tap-1.0.1
 	tempfile-3.3.0
 	term-0.7.0
 	termcolor-1.2.0
 	terminal_size-0.2.3
-	textwrap-0.16.0
 	thiserror-1.0.38
 	thiserror-impl-1.0.38
 	thread_local-1.1.4
@@ -359,7 +359,7 @@ DOCS=(CHANGELOG.md LICENSE README.md)
 
 DEPEND=""
 RDEPEND="${DEPEND}"
-BDEPEND=">=virtual/rust-1.46.0"
+BDEPEND=">=virtual/rust-1.65.0"
 
 src_install() {
 	cargo_src_install
