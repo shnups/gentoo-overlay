@@ -79,7 +79,7 @@ CRATES="
 	dunce-1.0.3
 	either-1.8.1
 	elementtree-1.2.3
-	elsa-1.7.0
+	elsa-1.8.1
 	encode_unicode-0.3.6
 	encode_unicode-1.0.0
 	encoding-0.2.33
@@ -101,11 +101,11 @@ CRATES="
 	funty-2.0.0
 	generic-array-0.14.6
 	getrandom-0.2.8
-	gimli-0.27.1
+	gimli-0.27.3
 	git2-0.16.1
 	glob-0.3.1
 	globset-0.4.10
-	goblin-0.6.0
+	goblin-0.6.1
 	hashbrown-0.12.3
 	hermit-abi-0.1.19
 	hermit-abi-0.2.6
@@ -137,7 +137,6 @@ CRATES="
 	joinery-2.1.0
 	js-sys-0.3.60
 	lazy_static-1.4.0
-	lazycell-1.3.0
 	leb128-0.2.5
 	libc-0.2.139
 	libgit2-sys-0.14.2+1.5.1
@@ -152,7 +151,7 @@ CRATES="
 	match_cfg-0.1.0
 	maybe-owned-0.3.4
 	memchr-2.5.0
-	memmap2-0.5.8
+	memmap2-0.5.10
 	memoffset-0.7.1
 	might-be-minified-0.3.0
 	minimal-lexical-0.2.1
@@ -168,7 +167,7 @@ CRATES="
 	num_cpus-1.15.0
 	number_prefix-0.3.0
 	object-0.30.3
-	once_cell-1.17.0
+	once_cell-1.18.0
 	opaque-debug-0.3.0
 	open-3.2.0
 	openssl-probe-0.1.5
@@ -201,10 +200,10 @@ CRATES="
 	predicates-2.1.5
 	predicates-core-1.0.5
 	prettytable-rs-0.10.0
-	proc-macro2-1.0.50
+	proc-macro2-1.0.60
 	proguard-5.0.0
 	quick-xml-0.26.0
-	quote-1.0.23
+	quote-1.0.28
 	r2d2-0.8.10
 	radium-0.7.0
 	rand-0.8.5
@@ -246,9 +245,9 @@ CRATES="
 	sentry-contexts-0.31.2
 	sentry-core-0.31.2
 	sentry-types-0.31.2
-	serde-1.0.152
-	serde_derive-1.0.152
-	serde_json-1.0.93
+	serde-1.0.164
+	serde_derive-1.0.164
+	serde_json-1.0.97
 	serde_spanned-0.6.1
 	serde_urlencoded-0.7.1
 	sha1-0.10.5
@@ -268,20 +267,21 @@ CRATES="
 	string_cache-0.8.4
 	strsim-0.10.0
 	subtle-2.4.1
-	symbolic-12.0.0
-	symbolic-common-12.0.0
-	symbolic-debuginfo-12.0.0
-	symbolic-il2cpp-12.0.0
-	symbolic-ppdb-12.0.0
-	symbolic-symcache-12.0.0
+	symbolic-12.1.5
+	symbolic-common-12.1.5
+	symbolic-debuginfo-12.1.5
+	symbolic-il2cpp-12.1.5
+	symbolic-ppdb-12.1.5
+	symbolic-symcache-12.1.5
 	syn-1.0.107
+	syn-2.0.18
 	tap-1.0.1
 	tempfile-3.3.0
 	term-0.7.0
 	termcolor-1.2.0
 	terminal_size-0.2.3
-	thiserror-1.0.38
-	thiserror-impl-1.0.38
+	thiserror-1.0.40
+	thiserror-impl-1.0.40
 	thread_local-1.1.4
 	time-0.1.45
 	time-0.3.17
@@ -318,7 +318,7 @@ CRATES="
 	wasm-bindgen-macro-0.2.83
 	wasm-bindgen-macro-support-0.2.83
 	wasm-bindgen-shared-0.2.83
-	wasmparser-0.95.0
+	wasmparser-0.102.0
 	watto-0.1.0
 	which-4.4.0
 	winapi-0.2.8
