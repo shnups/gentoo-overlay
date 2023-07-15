@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <upstream>
+    <bugs-to>https://github.com/homeport/dyff/issues</bugs-to>
+    <changelog>https://github.com/homeport/dyff/releases</changelog>
+    <doc>https://github.com/homeport/dyff/blob/master/README.md</doc>
+  </upstream>
+  <maintainer type="person">
+    <name>shnups</name>
+    <email>romain.meson@gmail.com</email>
+  </maintainer>
+  <longdescription lang="en"> dyff is inspired by the way the old BOSH v1 deployment output reported
+    changes from one version to another by only showing the parts of a YAML file that change. Each
+    difference is referenced by its location in the YAML document by using either the Spruce or
+    go-patch path syntax. The output report aims to be as compact as possible to give a clear and
+    simple overview of the change. Similar to the standard diff tool, it follows the principle of
+    describing the change by going from the from input file to the target to input file. Input files
+    can be local files (filesystem path), remote files (URI), or the standard input stream (using
+    -). All orders of keys in hashes are preserved during processing and output to the terminal,
+    most notably in the sub-commands to convert YAML to JSON and vice versa. </longdescription>
+</pkgmetadata>
