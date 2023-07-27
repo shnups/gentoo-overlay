@@ -3,7 +3,7 @@
 
 EAPI=7
 inherit go-module
-GIT_COMMIT="e9d70b0f311c4c1d97b4c6ab127f0e4142a21e0e"
+GIT_COMMIT="2b23613b894859d383fbe5de308eaf91ce05dcce"
 
 DESCRIPTION="Command-line tool to customize Spotify client"
 HOMEPAGE="https://github.com/khanhas/${PN}"
