@@ -3,7 +3,7 @@
 
 EAPI=7
 
-GIT_COMMIT="e8e808ff47a75220b52dcfad68055e7f028023cc"
+GIT_COMMIT="c635266fae82f9c41456053cb5cee19280b40b9b"
 EGO_PN="github.com/jesseduffield/lazydocker"
 EGO_VENDOR=(
 	"github.com/OpenPeeDeeP/xdg 4ba9e1eb294c"
