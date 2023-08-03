@@ -148,6 +148,7 @@ CRATES="
 	lock_api-0.4.9
 	log-0.4.17
 	mac-process-info-0.2.0
+	magic_string-0.3.4
 	match_cfg-0.1.0
 	maybe-owned-0.3.4
 	memchr-2.5.0
@@ -262,7 +263,7 @@ CRATES="
 	snapbox-0.4.4
 	snapbox-macros-0.3.1
 	socket2-0.4.7
-	sourcemap-6.3.0
+	sourcemap-6.4.0
 	stable_deref_trait-1.2.0
 	string_cache-0.8.4
 	strsim-0.10.0
@@ -309,6 +310,7 @@ CRATES="
 	uuid-1.3.0
 	vcpkg-0.2.15
 	version_check-0.9.4
+	vlq-0.5.1
 	wait-timeout-0.2.0
 	walkdir-2.3.2
 	wasi-0.10.0+wasi-snapshot-preview1
