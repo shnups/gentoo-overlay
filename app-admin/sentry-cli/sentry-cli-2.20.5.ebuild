@@ -263,7 +263,7 @@ CRATES="
 	snapbox-0.4.4
 	snapbox-macros-0.3.1
 	socket2-0.4.7
-	sourcemap-6.4.0
+	sourcemap-6.4.1
 	stable_deref_trait-1.2.0
 	string_cache-0.8.4
 	strsim-0.10.0
