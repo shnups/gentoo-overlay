@@ -1,7 +1,7 @@
 # Copyright 1999-2023 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=7
+EAPI=8
 
 CRATES="
 	adler-1.0.2
@@ -11,11 +11,11 @@ CRATES="
 	android-tzdata-0.1.1
 	android_system_properties-0.1.5
 	ansi_colours-1.2.2
-	anstream-0.3.2
+	anstream-0.5.0
 	anstyle-1.0.1
 	anstyle-parse-0.2.1
 	anstyle-query-1.0.0
-	anstyle-wincon-1.0.1
+	anstyle-wincon-2.1.0
 	anyhow-1.0.71
 	argh-0.1.10
 	argh_derive-0.1.10
@@ -29,9 +29,8 @@ CRATES="
 	bincode-1.3.3
 	bit_field-0.10.2
 	bitflags-1.3.2
-	bitflags-2.3.3
 	block-0.1.6
-	broot-1.25.0
+	broot-1.25.1
 	bstr-1.6.0
 	bumpalo-3.13.0
 	bytemuck-1.13.1
@@ -40,11 +39,11 @@ CRATES="
 	cfg-if-1.0.0
 	char_reader-0.1.1
 	chrono-0.4.26
-	clap-4.3.11
+	clap-4.4.2
 	clap-help-0.6.1
-	clap_builder-4.3.11
-	clap_complete-4.3.2
-	clap_derive-4.3.2
+	clap_builder-4.4.2
+	clap_complete-4.4.0
+	clap_derive-4.4.2
 	clap_lex-0.5.0
 	clap_mangen-0.2.12
 	cli-log-2.0.0
@@ -121,7 +120,6 @@ CRATES="
 	indexmap-2.0.0
 	instant-0.1.12
 	io-lifetimes-1.0.11
-	is-terminal-0.4.9
 	is_executable-1.0.1
 	itoa-1.0.8
 	jobserver-0.1.26
@@ -142,7 +140,6 @@ CRATES="
 	line-wrap-0.1.1
 	linked-hash-map-0.5.6
 	linux-raw-sys-0.3.8
-	linux-raw-sys-0.4.3
 	lock_api-0.4.10
 	log-0.4.19
 	malloc_buf-0.0.6
@@ -210,7 +207,6 @@ CRATES="
 	roxmltree-0.18.0
 	rusqlite-0.24.2
 	rustix-0.37.23
-	rustix-0.38.4
 	rustybuzz-0.7.0
 	ryu-1.0.14
 	safemem-0.3.3
@@ -245,7 +241,7 @@ CRATES="
 	tempfile-3.6.0
 	termimad-0.20.6
 	termimad-0.23.2
-	termimad-0.24.1
+	termimad-0.25.2
 	terminal-clipboard-0.4.0
 	terminal-light-1.1.1
 	termux-clipboard-0.1.0
@@ -334,7 +330,7 @@ DOCS=(CHANGELOG.md features.md LICENSE README.md)
 
 DEPEND=""
 RDEPEND="${DEPEND}"
-BDEPEND=">=virtual/rust-1.65.0"
+BDEPEND=">=virtual/rust-1.70.0"
 
 src_install() {
 	newman "${S}/man/page" "${PN}.1"
