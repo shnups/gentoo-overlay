@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <upstream>
+    <bugs-to>https://github.com/containers/podman-tui/issues</bugs-to>
+    <changelog>https://github.com/containers/podman-tui/releases</changelog>
+    <doc>https://github.com/containers/podman-tui/blob/main/docs/README.md/</doc>
+  </upstream>
+  <maintainer type="person">
+    <name>shnups</name>
+    <email>romain.meson@gmail.com</email>
+  </maintainer>
+  <longdescription lang="en"> podman-tui is a terminal user interface for podman v4 (>=4.0.2). It is
+    using podman go bindings to communicate with local or remote podman machine (through SSH). </longdescription>
+</pkgmetadata>
