@@ -23,7 +23,6 @@ CRATES="
 	base64ct-1.5.3
 	binary-merge-0.1.2
 	bitflags-1.3.2
-	bitvec-1.0.1
 	block-buffer-0.10.3
 	brotli-sys-0.3.2
 	brotli2-0.3.2
@@ -89,24 +88,27 @@ CRATES="
 	encoding-index-singlebyte-1.20141219.5
 	encoding-index-tradchinese-1.20141219.5
 	encoding_index_tests-0.1.4
+	equivalent-1.0.1
 	errno-0.2.8
 	errno-dragonfly-0.1.2
 	fallible-iterator-0.2.0
+	fallible-iterator-0.3.0
 	fastrand-1.8.0
 	filetime-0.2.19
 	flate2-1.0.25
 	float-cmp-0.9.0
 	fnv-1.0.7
 	form_urlencoded-1.1.0
-	funty-2.0.0
 	generic-array-0.14.6
 	getrandom-0.2.8
 	gimli-0.27.3
+	gimli-0.28.0
 	git2-0.16.1
 	glob-0.3.1
 	globset-0.4.10
-	goblin-0.6.1
+	goblin-0.7.1
 	hashbrown-0.12.3
+	hashbrown-0.14.0
 	hermit-abi-0.1.19
 	hermit-abi-0.2.6
 	hex-0.4.3
@@ -123,6 +125,7 @@ CRATES="
 	ignore-0.4.20
 	indent_write-2.2.0
 	indexmap-1.9.2
+	indexmap-2.0.0
 	indicatif-0.14.0
 	inplace-vec-builder-0.1.1
 	insta-1.26.0
@@ -201,12 +204,11 @@ CRATES="
 	predicates-2.1.5
 	predicates-core-1.0.5
 	prettytable-rs-0.10.0
-	proc-macro2-1.0.60
+	proc-macro2-1.0.66
 	proguard-5.0.0
 	quick-xml-0.26.0
 	quote-1.0.28
 	r2d2-0.8.10
-	radium-0.7.0
 	rand-0.8.5
 	rand_chacha-0.3.1
 	rand_core-0.6.4
@@ -246,9 +248,9 @@ CRATES="
 	sentry-contexts-0.31.2
 	sentry-core-0.31.2
 	sentry-types-0.31.2
-	serde-1.0.164
-	serde_derive-1.0.164
-	serde_json-1.0.97
+	serde-1.0.188
+	serde_derive-1.0.188
+	serde_json-1.0.105
 	serde_spanned-0.6.1
 	serde_urlencoded-0.7.1
 	sha1-0.10.5
@@ -263,20 +265,19 @@ CRATES="
 	snapbox-0.4.4
 	snapbox-macros-0.3.1
 	socket2-0.4.7
-	sourcemap-6.4.1
+	sourcemap-7.0.0
 	stable_deref_trait-1.2.0
 	string_cache-0.8.4
 	strsim-0.10.0
 	subtle-2.4.1
-	symbolic-12.1.5
-	symbolic-common-12.1.5
-	symbolic-debuginfo-12.1.5
-	symbolic-il2cpp-12.1.5
-	symbolic-ppdb-12.1.5
-	symbolic-symcache-12.1.5
+	symbolic-12.4.0
+	symbolic-common-12.4.0
+	symbolic-debuginfo-12.4.0
+	symbolic-il2cpp-12.4.0
+	symbolic-ppdb-12.4.0
+	symbolic-symcache-12.4.0
 	syn-1.0.107
-	syn-2.0.18
-	tap-1.0.1
+	syn-2.0.31
 	tempfile-3.3.0
 	term-0.7.0
 	termcolor-1.2.0
@@ -337,7 +338,6 @@ CRATES="
 	windows_x86_64_gnu-0.42.1
 	windows_x86_64_gnullvm-0.42.1
 	windows_x86_64_msvc-0.42.1
-	wyz-0.5.1
 	yaml-rust-0.4.5
 	yansi-0.5.1
 	zip-0.6.4
