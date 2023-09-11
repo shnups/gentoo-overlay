@@ -3,7 +3,7 @@
 
 EAPI=7
 inherit go-module
-GIT_COMMIT="a6b43c1706d3cb7b81773b7bf2ae84f96d94954a"
+GIT_COMMIT="3321a5bcbcd9ea3638d061086a0e0ae03e6526fc"
 
 DESCRIPTION="Command-line tool to customize Spotify client"
 HOMEPAGE="https://github.com/khanhas/${PN}"
@@ -22,11 +22,11 @@ EGO_SUM=(
 	"github.com/stretchr/objx v0.1.0/go.mod"
 	"github.com/stretchr/testify v1.7.1"
 	"github.com/stretchr/testify v1.7.1/go.mod"
-	"golang.org/x/net v0.14.0"
-	"golang.org/x/net v0.14.0/go.mod"
+	"golang.org/x/net v0.15.0"
+	"golang.org/x/net v0.15.0/go.mod"
 	"golang.org/x/sys v0.0.0-20220811171246-fbc7d0a398ab/go.mod"
-	"golang.org/x/sys v0.11.0"
-	"golang.org/x/sys v0.11.0/go.mod"
+	"golang.org/x/sys v0.12.0"
+	"golang.org/x/sys v0.12.0/go.mod"
 	"gopkg.in/check.v1 v0.0.0-20161208181325-20d25e280405/go.mod"
 	"gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c"
 	"gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c/go.mod"
