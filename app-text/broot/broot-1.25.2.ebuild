@@ -30,7 +30,7 @@ CRATES="
 	bit_field-0.10.2
 	bitflags-1.3.2
 	block-0.1.6
-	broot-1.25.1
+	broot-1.25.2
 	bstr-1.6.0
 	bumpalo-3.13.0
 	bytemuck-1.13.1
@@ -70,7 +70,7 @@ CRATES="
 	csv2svg-0.1.9
 	custom_error-1.9.2
 	data-url-0.2.0
-	deser-hjson-2.1.0
+	deser-hjson-2.2.0
 	directories-4.0.1
 	directories-next-2.0.0
 	dirs-sys-0.3.7
