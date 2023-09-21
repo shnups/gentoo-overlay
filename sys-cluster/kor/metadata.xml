@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <upstream>
+    <bugs-to>https://github.com/yonahd/kor/issues</bugs-to>
+    <changelog>https://github.com/yonahd/kor/releases</changelog>
+    <doc>https://github.com/yonahd/kor/blob/main/README.md</doc>
+  </upstream>
+  <maintainer type="person">
+    <name>shnups</name>
+    <email>romain.meson@gmail.com</email>
+  </maintainer>
+  <longdescription>Kor is a tool to discover unused Kubernetes resources. Currently, Kor can
+    identify and list unused: ConfigMaps, Secrets, Services, ServiceAccounts, Deployments,
+    StatefulSets, Roles, Hpas, Pvcs, Ingresses, Pdbs</longdescription>
+</pkgmetadata>
