@@ -3,7 +3,7 @@
 
 EAPI=7
 inherit go-module
-GIT_COMMIT="77392bd12a105ecd86d188b088bf9ee2b30d2ace"
+GIT_COMMIT="66f65b38e91e12ba5a5a010c80c122a9960e01e1"
 
 DESCRIPTION="A Golang Tool to discover unused Kubernetes Resources"
 HOMEPAGE="https://github.com/yonahd/kor"
@@ -16,6 +16,8 @@ EGO_SUM=(
 	"github.com/davecgh/go-spew v1.1.1/go.mod"
 	"github.com/emicklei/go-restful/v3 v3.10.1"
 	"github.com/emicklei/go-restful/v3 v3.10.1/go.mod"
+	"github.com/evanphx/json-patch v5.6.0+incompatible"
+	"github.com/evanphx/json-patch v5.6.0+incompatible/go.mod"
 	"github.com/go-logr/logr v1.2.0/go.mod"
 	"github.com/go-logr/logr v1.2.4"
 	"github.com/go-logr/logr v1.2.4/go.mod"
@@ -75,8 +77,12 @@ EGO_SUM=(
 	"github.com/munnerz/goautoneg v0.0.0-20191010083416-a7dc8b61c822/go.mod"
 	"github.com/olekukonko/tablewriter v0.0.5"
 	"github.com/olekukonko/tablewriter v0.0.5/go.mod"
-	"github.com/onsi/ginkgo/v2 v2.9.4"
-	"github.com/onsi/gomega v1.27.6"
+	"github.com/onsi/ginkgo/v2 v2.11.0"
+	"github.com/onsi/ginkgo/v2 v2.11.0/go.mod"
+	"github.com/onsi/gomega v1.27.10"
+	"github.com/onsi/gomega v1.27.10/go.mod"
+	"github.com/pkg/errors v0.9.1"
+	"github.com/pkg/errors v0.9.1/go.mod"
 	"github.com/pmezard/go-difflib v1.0.0"
 	"github.com/pmezard/go-difflib v1.0.0/go.mod"
 	"github.com/rivo/uniseg v0.2.0/go.mod"
@@ -118,8 +124,8 @@ EGO_SUM=(
 	"golang.org/x/sys v0.0.0-20190215142949-d0b11bdaac8a/go.mod"
 	"golang.org/x/sys v0.0.0-20190412213103-97732733099d/go.mod"
 	"golang.org/x/sys v0.0.0-20200930185726-fdedc70b468f/go.mod"
-	"golang.org/x/sys v0.10.0"
-	"golang.org/x/sys v0.10.0/go.mod"
+	"golang.org/x/sys v0.11.0"
+	"golang.org/x/sys v0.11.0/go.mod"
 	"golang.org/x/term v0.10.0"
 	"golang.org/x/term v0.10.0/go.mod"
 	"golang.org/x/text v0.3.0/go.mod"
