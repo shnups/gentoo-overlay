@@ -30,7 +30,7 @@ CRATES="
 	bit_field-0.10.2
 	bitflags-1.3.2
 	block-0.1.6
-	broot-1.26.0
+	broot-1.26.1
 	bstr-1.6.0
 	bumpalo-3.13.0
 	bytemuck-1.13.1
