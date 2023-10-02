@@ -3,7 +3,7 @@
 
 EAPI=7
 
-GIT_COMMIT="e49c367a014978b5b7228d0e2d6bed6c0555e1e3"
+GIT_COMMIT="6fbe391628eeeae1adf39522a55078797e6e7f2e"
 EGO_PN="github.com/tsenart/${PN}"
 EGO_VENDOR=(
 	"github.com/alecthomas/jsonschema 9eeeec9d044b"
@@ -14,13 +14,14 @@ EGO_VENDOR=(
 	"github.com/google/go-cmp v0.5.9"
 	"github.com/influxdata/tdigest v0.0.1"
 	"github.com/mailru/easyjson v0.7.7"
-	"github.com/miekg/dns v1.1.55"
+	"github.com/miekg/dns v1.1.56"
 	"github.com/prometheus/client_golang v1.16.0"
+	"github.com/prometheus/prometheus v0.47.0"
 	"github.com/rs/dnscache e0241e321417"
 	"github.com/streadway/quantile 4246515d968d"
 	"github.com/tsenart/go-tsz 0bd30b3df1c3"
-	"golang.org/x/net v0.12.0 github.com/golang/net"
-	"pgregory.net/rapid v1.0.0 github.com/flyingmutant/rapid"
+	"golang.org/x/net v0.15.0 github.com/golang/net"
+	"pgregory.net/rapid v1.1.0 github.com/flyingmutant/rapid"
 	"github.com/beorn7/perks v1.0.1" # indirect
 	"github.com/cespare/xxhash v2.2.0" # indirect
 	"github.com/gogo/protobuf v1.3.2" # indirect
@@ -32,15 +33,14 @@ EGO_VENDOR=(
 	"github.com/pkg/errors v0.9.1" # indirect
 	"github.com/prometheus/client_model v0.4.0" # indirect
 	"github.com/prometheus/common v0.44.0" # indirect
-	"github.com/prometheus/procfs v0.10.1" # indirect
-	"github.com/prometheus/prometheus v0.45.0" # indirect
+	"github.com/prometheus/procfs v0.11.0" # indirect
 	"golang.org/x/exp 613f0c0eb8a1 github.com/golang/exp" # indirect
 	"golang.org/x/mod v0.12.0 github.com/golang/mod" # indirect
 	"golang.org/x/sync v0.3.0 github.com/golang/sync" # indirect
-	"golang.org/x/sys v0.10.0 github.com/golang/sys" # indirect
-	"golang.org/x/text v0.11.0 github.com/golang/text" # indirect
-	"golang.org/x/tools v0.11.0 github.com/golang/tools" # indirect
-	"google.golang.org/protobuf v1.30.0 github.com/protocolbuffers/protobuf-go" # indirect
+	"golang.org/x/sys v0.12.0 github.com/golang/sys" # indirect
+	"golang.org/x/text v0.13.0 github.com/golang/text" # indirect
+	"golang.org/x/tools v0.13.0 github.com/golang/tools" # indirect
+	"google.golang.org/protobuf v1.31.0 github.com/protocolbuffers/protobuf-go" # indirect
 )
 
 inherit golang-build golang-vcs-snapshot
