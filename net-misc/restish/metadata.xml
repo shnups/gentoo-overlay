@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <upstream>
+    <bugs-to>https://github.com/danielgtaylor/restish/issues</bugs-to>
+    <changelog>https://github.com/danielgtaylor/restish/releases</changelog>
+    <doc>https://rest.sh</doc>
+  </upstream>
+  <maintainer type="person">
+    <name>shnups</name>
+    <email>romain.meson@gmail.com</email>
+  </maintainer>
+  <longdescription>Restish is a CLI for interacting with REST-ish HTTP APIs with some nice features
+    built-in — like always having the latest API resources, fields, and operations available when
+    they go live on the API without needing to install or update anything.</longdescription>
+</pkgmetadata>
