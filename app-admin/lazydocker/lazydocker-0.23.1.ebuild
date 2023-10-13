@@ -3,7 +3,7 @@
 
 EAPI=7
 
-GIT_COMMIT="cce9d40f43c08c42a401135467aec4500895b21a"
+GIT_COMMIT="1060e17731c80372335446eabe6a56ba4facd2b3"
 EGO_PN="github.com/jesseduffield/lazydocker"
 EGO_VENDOR=(
 	"github.com/OpenPeeDeeP/xdg 4ba9e1eb294c"
@@ -39,7 +39,7 @@ EGO_VENDOR=(
 	"github.com/docker/go-units v0.4.0" # indirect
 	"github.com/fvbommel/sortorder v1.1.0" # indirect
 	"github.com/gdamore/encoding v1.0.0" # indirect
-	"github.com/gdamore/tcell/v2 v2.5.3 github.com/gdamore/tcell" # indirect
+	"github.com/gdamore/tcellv/2 v2.5.3 github.com/gdamore/tcell" # indirect
 	"github.com/goccy/go-yaml v1.11.0"
 	"github.com/gogo/protobuf v1.3.2" # indirect
 	"github.com/konsorten/go-windows-terminal-sequences v1.0.2" # indirect
