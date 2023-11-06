@@ -2,13 +2,13 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
-REVISION="d310b07567dc90763f5f27f94c618f057295b55d"
+REVISION="df98aa8c0e3ed3b15a25925cc07c1b54a5a6627a"
 EGO_PN="github.com/slimtoolkit/slim"
 inherit go-module golang-build
 
 DESCRIPTION="Minify and Secure Docker containers"
 HOMEPAGE="https://github.com/slimtoolkit/slim"
-SRC_URI="https://github.com/slimtoolkit/slim/refs/tags/${PV}.tar.gz -> ${P}.tar.gz"
+SRC_URI="https://github.com/slimtoolkit/slim/archive/refs/tags/${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="Apache-2.0"
 SLOT="0"
