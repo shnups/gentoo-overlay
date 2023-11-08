@@ -40,6 +40,7 @@ CRATES="
 	chrono-0.4.23
 	cipher-0.3.0
 	clap-4.1.6
+	clap_complete-4.4.3
 	clap_lex-0.3.1
 	codespan-reporting-0.11.1
 	colored-2.0.0
