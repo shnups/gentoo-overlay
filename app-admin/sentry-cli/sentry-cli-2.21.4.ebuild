@@ -60,7 +60,7 @@ CRATES="
 	csv-1.1.6
 	csv-core-0.1.10
 	curl-0.4.44
-	curl-sys-0.4.59+curl-7.86.0
+	curl-sys-0.4.68+curl-8.4.0
 	cxx-1.0.88
 	cxx-build-1.0.88
 	cxxbridge-flags-1.0.88
@@ -90,8 +90,7 @@ CRATES="
 	encoding-index-tradchinese-1.20141219.5
 	encoding_index_tests-0.1.4
 	equivalent-1.0.1
-	errno-0.2.8
-	errno-dragonfly-0.1.2
+	errno-0.3.5
 	fallible-iterator-0.2.0
 	fallible-iterator-0.3.0
 	fastrand-1.8.0
@@ -227,7 +226,7 @@ CRATES="
 	rustc-demangle-0.1.21
 	rustc_version-0.2.3
 	rustc_version-0.4.0
-	rustix-0.36.7
+	rustix-0.36.16
 	rustversion-1.0.11
 	ryu-1.0.12
 	safemem-0.3.3
@@ -243,12 +242,12 @@ CRATES="
 	semver-0.9.0
 	semver-1.0.16
 	semver-parser-0.7.0
-	sentry-0.31.2
-	sentry-anyhow-0.31.2
-	sentry-backtrace-0.31.2
-	sentry-contexts-0.31.2
-	sentry-core-0.31.2
-	sentry-types-0.31.2
+	sentry-0.31.8
+	sentry-anyhow-0.31.8
+	sentry-backtrace-0.31.8
+	sentry-contexts-0.31.8
+	sentry-core-0.31.8
+	sentry-types-0.31.8
 	serde-1.0.188
 	serde_derive-1.0.188
 	serde_json-1.0.105
@@ -266,7 +265,7 @@ CRATES="
 	snapbox-0.4.4
 	snapbox-macros-0.3.1
 	socket2-0.4.7
-	sourcemap-7.0.0
+	sourcemap-7.0.1
 	stable_deref_trait-1.2.0
 	string_cache-0.8.4
 	strsim-0.10.0
@@ -332,13 +331,24 @@ CRATES="
 	winapi-util-0.1.5
 	winapi-x86_64-pc-windows-gnu-0.4.0
 	windows-sys-0.42.0
+	windows-sys-0.45.0
+	windows-sys-0.48.0
+	windows-targets-0.42.1
+	windows-targets-0.48.5
 	windows_aarch64_gnullvm-0.42.1
+	windows_aarch64_gnullvm-0.48.5
 	windows_aarch64_msvc-0.42.1
+	windows_aarch64_msvc-0.48.5
 	windows_i686_gnu-0.42.1
+	windows_i686_gnu-0.48.5
 	windows_i686_msvc-0.42.1
+	windows_i686_msvc-0.48.5
 	windows_x86_64_gnu-0.42.1
+	windows_x86_64_gnu-0.48.5
 	windows_x86_64_gnullvm-0.42.1
+	windows_x86_64_gnullvm-0.48.5
 	windows_x86_64_msvc-0.42.1
+	windows_x86_64_msvc-0.48.5
 	yaml-rust-0.4.5
 	yansi-0.5.1
 	zip-0.6.4
