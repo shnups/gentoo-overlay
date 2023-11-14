@@ -3,7 +3,7 @@
 
 EAPI=7
 inherit go-module
-GIT_COMMIT="dec8161f811a3710916c3eb85d6e89272d6de0f7"
+GIT_COMMIT="4a93e141b15605a66d661979e66976c5ed7c17d9"
 
 DESCRIPTION="A Golang Tool to discover unused Kubernetes Resources"
 HOMEPAGE="https://github.com/yonahd/kor"
